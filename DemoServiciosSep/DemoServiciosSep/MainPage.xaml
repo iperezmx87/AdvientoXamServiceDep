@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DemoServiciosSep.MainPage">
+
+    <StackLayout Spacing="20" HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Padding="13">
+        <Button Text="Obtener versión"
+                Clicked="Button_Clicked"></Button>
+
+        <Button Text="Ejecuta callback"
+                Clicked="Button_Clicked_1"></Button>
+        
+        <Button Text="Ejecuta con evento"
+                Clicked="Button_Clicked_2"></Button>
+    </StackLayout>
+
+</ContentPage>
